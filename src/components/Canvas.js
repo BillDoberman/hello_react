@@ -19,7 +19,7 @@ function Canvas() {
             ctx.fillStyle = '#000';
             let x = Math.random() * canvas.width;
             ctx.fillRect(x,x,x,x);
-
+                
             setCount(count => count + 1);
         }
 
